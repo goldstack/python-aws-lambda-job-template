@@ -1,0 +1,18 @@
+{
+  "$schema": "./schemas/package.schema.json",
+  "name": "lambda-python-job-1",
+  "template": "lambda-python-job",
+  "templateVersion": "0.1.0",
+  "configuration": {},
+  "deployments": [
+    {
+      "name": "prod",
+      "awsUser": "goldstack-dev",
+      "awsRegion": "us-west-2",
+      "configuration": {
+        "lambdaName": "goldstack-ci-test-lambda-python-job-1727593111064"
+      },
+      "tfStateKey": "lambda-python-job-1-prod-b649241e12ba4287d6a2.tfstate"
+    }
+  ]
+}
