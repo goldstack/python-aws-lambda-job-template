@@ -5,17 +5,17 @@
       "lambda_arn": {
         "sensitive": false,
         "type": "string",
-        "value": "arn:aws:lambda:us-west-2:475629728374:function:goldstack-ci-test-lambda-python-job-1728426396364"
+        "value": "arn:aws:lambda:us-west-2:475629728374:function:goldstack-ci-test-lambda-python-job-1728670188950"
       },
       "lambda_function_name": {
         "sensitive": false,
         "type": "string",
-        "value": "goldstack-ci-test-lambda-python-job-1728426396364"
+        "value": "goldstack-ci-test-lambda-python-job-1728670188950"
       },
       "lambda_invoke_arn": {
         "sensitive": false,
         "type": "string",
-        "value": "arn:aws:apigateway:us-west-2:lambda:path/2015-03-31/functions/arn:aws:lambda:us-west-2:475629728374:function:goldstack-ci-test-lambda-python-job-1728426396364/invocations"
+        "value": "arn:aws:apigateway:us-west-2:lambda:path/2015-03-31/functions/arn:aws:lambda:us-west-2:475629728374:function:goldstack-ci-test-lambda-python-job-1728670188950/invocations"
       }
     }
   }
