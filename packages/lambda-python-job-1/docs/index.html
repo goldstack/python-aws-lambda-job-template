@@ -1,8 +1,8 @@
 <p></p>
 <div class="markdown-fragment">
   <p>
-    The Lambda Python Job template allows defining an AWS Lambda and Python and
-    triggering this function on a schedule.
+    The Lambda Python Job template allows defining an AWS Lambda in Python and
+    triggering this function on a schedule or by an event.
   </p>
 </div>
 <p></p>
@@ -35,7 +35,10 @@
     Includes command line utilities to package code as ZIP and to deploy to AWS
     Lambda
   </li>
-  <li>Trigger the function according to a schedule (e.g. once per hour)</li>
+  <li>
+    Trigger the function according to a schedule (e.g. once per hour) and/or
+    based on messages received in an SQS queue
+  </li>
 </ul>
 <h2 class="heading">
   <span id="getting-started"></span
@@ -471,10 +474,6 @@ source venv/bin/activate # Linux/ iOS
   </p>
 </div>
 <p></p>
-<p>
-  Note this Lambda will be executed on a schedule. The schedule is defined in
-  <code class="inline">infra/aws/schedule.tf</code>.
-</p>
 <h2 class="heading">
   <span id="deployment"></span><a href="#deployment">Deployment</a
   ><span class="permalink"
