@@ -263,6 +263,57 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@aws-sdk/client-sqs@npm:3.645.0":
+  version: 3.645.0
+  resolution: "@aws-sdk/client-sqs@npm:3.645.0"
+  dependencies:
+    "@aws-crypto/sha256-browser": "npm:5.2.0"
+    "@aws-crypto/sha256-js": "npm:5.2.0"
+    "@aws-sdk/client-sso-oidc": "npm:3.645.0"
+    "@aws-sdk/client-sts": "npm:3.645.0"
+    "@aws-sdk/core": "npm:3.635.0"
+    "@aws-sdk/credential-provider-node": "npm:3.645.0"
+    "@aws-sdk/middleware-host-header": "npm:3.620.0"
+    "@aws-sdk/middleware-logger": "npm:3.609.0"
+    "@aws-sdk/middleware-recursion-detection": "npm:3.620.0"
+    "@aws-sdk/middleware-sdk-sqs": "npm:3.635.0"
+    "@aws-sdk/middleware-user-agent": "npm:3.645.0"
+    "@aws-sdk/region-config-resolver": "npm:3.614.0"
+    "@aws-sdk/types": "npm:3.609.0"
+    "@aws-sdk/util-endpoints": "npm:3.645.0"
+    "@aws-sdk/util-user-agent-browser": "npm:3.609.0"
+    "@aws-sdk/util-user-agent-node": "npm:3.614.0"
+    "@smithy/config-resolver": "npm:^3.0.5"
+    "@smithy/core": "npm:^2.4.0"
+    "@smithy/fetch-http-handler": "npm:^3.2.4"
+    "@smithy/hash-node": "npm:^3.0.3"
+    "@smithy/invalid-dependency": "npm:^3.0.3"
+    "@smithy/md5-js": "npm:^3.0.3"
+    "@smithy/middleware-content-length": "npm:^3.0.5"
+    "@smithy/middleware-endpoint": "npm:^3.1.0"
+    "@smithy/middleware-retry": "npm:^3.0.15"
+    "@smithy/middleware-serde": "npm:^3.0.3"
+    "@smithy/middleware-stack": "npm:^3.0.3"
+    "@smithy/node-config-provider": "npm:^3.1.4"
+    "@smithy/node-http-handler": "npm:^3.1.4"
+    "@smithy/protocol-http": "npm:^4.1.0"
+    "@smithy/smithy-client": "npm:^3.2.0"
+    "@smithy/types": "npm:^3.3.0"
+    "@smithy/url-parser": "npm:^3.0.3"
+    "@smithy/util-base64": "npm:^3.0.0"
+    "@smithy/util-body-length-browser": "npm:^3.0.0"
+    "@smithy/util-body-length-node": "npm:^3.0.0"
+    "@smithy/util-defaults-mode-browser": "npm:^3.0.15"
+    "@smithy/util-defaults-mode-node": "npm:^3.0.15"
+    "@smithy/util-endpoints": "npm:^2.0.5"
+    "@smithy/util-middleware": "npm:^3.0.3"
+    "@smithy/util-retry": "npm:^3.0.3"
+    "@smithy/util-utf8": "npm:^3.0.0"
+    tslib: "npm:^2.6.2"
+  checksum: 567c488a2f74d4e246397a0ad4ca510e978af2c64adae155e37f88240f6f610f51c881b17b4418f88cb465c7e2aca150b797b057be97fa51957449f09e6587e7
+  languageName: node
+  linkType: hard
+
 "@aws-sdk/client-sso-oidc@npm:3.620.0":
   version: 3.620.0
   resolution: "@aws-sdk/client-sso-oidc@npm:3.620.0"
@@ -972,6 +1023,20 @@ __metadata:
     "@smithy/util-utf8": "npm:^3.0.0"
     tslib: "npm:^2.6.2"
   checksum: 30a8858719a90cbad1d5f4e81fa85b1b3b375874662579c225be54162835af8657a414f7203b81f1cc610c646cae513d5420c7c1c79d30fe1d41b65981d9ebab
+  languageName: node
+  linkType: hard
+
+"@aws-sdk/middleware-sdk-sqs@npm:3.635.0":
+  version: 3.635.0
+  resolution: "@aws-sdk/middleware-sdk-sqs@npm:3.635.0"
+  dependencies:
+    "@aws-sdk/types": "npm:3.609.0"
+    "@smithy/smithy-client": "npm:^3.2.0"
+    "@smithy/types": "npm:^3.3.0"
+    "@smithy/util-hex-encoding": "npm:^3.0.0"
+    "@smithy/util-utf8": "npm:^3.0.0"
+    tslib: "npm:^2.6.2"
+  checksum: 88462555421db57a87a91bc37207172d977697bb5d5e2c94b04cdc8eb0916dcb7a5b51dd8a3917072182b956d2811bb49357169cd1756943aec1cc07046f3e89
   languageName: node
   linkType: hard
 
@@ -2089,9 +2154,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-lambda-cli@npm:0.1.7":
-  version: 0.1.7
-  resolution: "@goldstack/template-lambda-cli@npm:0.1.7"
+"@goldstack/template-lambda-cli@npm:0.1.8":
+  version: 0.1.8
+  resolution: "@goldstack/template-lambda-cli@npm:0.1.8"
   dependencies:
     "@goldstack/infra": "npm:0.4.13"
     "@goldstack/infra-aws": "npm:0.4.22"
@@ -2102,24 +2167,25 @@ __metadata:
     "@goldstack/utils-package": "npm:0.4.13"
     "@goldstack/utils-package-config": "npm:0.4.13"
     "@goldstack/utils-template": "npm:0.4.13"
-    "@goldstack/utils-terraform": "npm:0.4.28"
-    "@goldstack/utils-terraform-aws": "npm:0.4.31"
+    "@goldstack/utils-terraform": "npm:0.4.29"
+    "@goldstack/utils-terraform-aws": "npm:0.4.32"
     source-map-support: "npm:^0.5.21"
     yargs: "npm:^17.5.1"
   bin:
     template: ./bin/template
     template-lambda-cli: ./bin/template
-  checksum: f276a55636f081ab5bd2d751873195a224fdba82d6f26e864b83345b7535ed3822aafa79d0d83921ebecf9aae7fea5173f5375e81a44aa1f7af27570796fc15b
+  checksum: 20730ce9a208b33e87af0b5102178315ba2c9d2ebdf28b023e943b75a24e06e0d137593ca458194209f72988feeab31cbac733e133bcf818940fcb5cc3b1c404
   languageName: node
   linkType: hard
 
-"@goldstack/template-lambda-trigger-cli@npm:0.1.7":
-  version: 0.1.7
-  resolution: "@goldstack/template-lambda-trigger-cli@npm:0.1.7"
+"@goldstack/template-lambda-trigger-cli@npm:0.1.8":
+  version: 0.1.8
+  resolution: "@goldstack/template-lambda-trigger-cli@npm:0.1.8"
   dependencies:
     "@goldstack/infra": "npm:0.4.13"
     "@goldstack/infra-aws": "npm:0.4.22"
-    "@goldstack/template-lambda-cli": "npm:0.1.7"
+    "@goldstack/template-lambda-cli": "npm:0.1.8"
+    "@goldstack/template-sqs": "npm:0.1.5"
     "@goldstack/utils-aws-lambda": "npm:0.3.28"
     "@goldstack/utils-cli": "npm:0.3.10"
     "@goldstack/utils-config": "npm:0.4.13"
@@ -2127,14 +2193,35 @@ __metadata:
     "@goldstack/utils-package": "npm:0.4.13"
     "@goldstack/utils-package-config": "npm:0.4.13"
     "@goldstack/utils-template": "npm:0.4.13"
-    "@goldstack/utils-terraform": "npm:0.4.28"
-    "@goldstack/utils-terraform-aws": "npm:0.4.31"
+    "@goldstack/utils-terraform": "npm:0.4.29"
+    "@goldstack/utils-terraform-aws": "npm:0.4.32"
     source-map-support: "npm:^0.5.21"
     yargs: "npm:^17.5.1"
   bin:
     template: ./bin/template
     template-lambda-http-cli: ./bin/template
-  checksum: 9ca956510f06a70313bf1062b331b7a9c8a8d8fc3d7b75eab665dade0632b3b550e04c03a304d6e9e5cafceb601833d2e4e19aa00b7503dcb8592d24b91a4228
+  checksum: 2077601a6042f08c4674af02c30ce75b501a0285fe4ed109dc843a1ed4c26e4750b9e77bb923c27434c0f1d218a06f07423dc4a3145e3130a311b1a43c0746e6
+  languageName: node
+  linkType: hard
+
+"@goldstack/template-sqs@npm:0.1.5":
+  version: 0.1.5
+  resolution: "@goldstack/template-sqs@npm:0.1.5"
+  dependencies:
+    "@aws-sdk/client-sqs": "npm:3.645.0"
+    "@aws-sdk/credential-providers": "npm:3.645.0"
+    "@aws-sdk/types": "npm:^3.609.0"
+    "@goldstack/infra": "npm:0.4.13"
+    "@goldstack/infra-aws": "npm:0.4.22"
+    "@goldstack/utils-cli": "npm:0.3.10"
+    "@goldstack/utils-esbuild": "npm:0.5.9"
+    "@goldstack/utils-package": "npm:0.4.13"
+    "@goldstack/utils-package-config-embedded": "npm:0.5.14"
+    "@goldstack/utils-terraform": "npm:0.4.29"
+    "@goldstack/utils-terraform-aws": "npm:0.4.32"
+    aws-sdk-client-mock: "npm:^4.0.1"
+    uuid: "npm:^8.3.0"
+  checksum: 08e2076d4cd6664c33b19d0f0962c44da9a3801d1b73ae386d73852c495839b9582fb6198fd629004b0f0ecba0d67af240dc437c26cf0c401a707343b3737514
   languageName: node
   linkType: hard
 
@@ -2199,6 +2286,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@goldstack/utils-esbuild@npm:0.5.9":
+  version: 0.5.9
+  resolution: "@goldstack/utils-esbuild@npm:0.5.9"
+  checksum: 14bbbb59d12deaaaa2970817980253b040fd9322a3be58df57ec16c9d54b6672da790c17bad716b7f95c8446ecef45db1b1dcca87de56b794b7d41a0f2aa699d
+  languageName: node
+  linkType: hard
+
 "@goldstack/utils-git@npm:0.2.9":
   version: 0.2.9
   resolution: "@goldstack/utils-git@npm:0.2.9"
@@ -2217,6 +2311,17 @@ __metadata:
   dependencies:
     "@goldstack/utils-cli": "npm:0.3.10"
   checksum: 87840cda17da196590c2383686b5e071c01f79466dc53a6ee8127cd5ff79f50655348816fcae7cba9445ef63dcc7a2b5c871c0174d9d14bf9f7e1adcf758056f
+  languageName: node
+  linkType: hard
+
+"@goldstack/utils-package-config-embedded@npm:0.5.14":
+  version: 0.5.14
+  resolution: "@goldstack/utils-package-config-embedded@npm:0.5.14"
+  dependencies:
+    "@goldstack/infra": "npm:0.4.13"
+    "@goldstack/utils-config": "npm:0.4.13"
+    "@goldstack/utils-package": "npm:0.4.13"
+  checksum: 27fa53c572ec8755446cddb7900c9ed852df43c524cb5cfd2d25d001fb89c62ec16fd2afb65e013017c13c190f203f9bfc296165009ca14577827078d21da984
   languageName: node
   linkType: hard
 
@@ -2269,9 +2374,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-terraform-aws@npm:0.4.31":
-  version: 0.4.31
-  resolution: "@goldstack/utils-terraform-aws@npm:0.4.31"
+"@goldstack/utils-terraform-aws@npm:0.4.32":
+  version: 0.4.32
+  resolution: "@goldstack/utils-terraform-aws@npm:0.4.32"
   dependencies:
     "@aws-sdk/client-dynamodb": "npm:^3.645.0"
     "@aws-sdk/client-s3": "npm:3.620.0"
@@ -2282,14 +2387,14 @@ __metadata:
     "@goldstack/utils-log": "npm:0.3.12"
     "@goldstack/utils-package": "npm:0.4.13"
     "@goldstack/utils-sh": "npm:0.5.12"
-    "@goldstack/utils-terraform": "npm:0.4.28"
-  checksum: f0e1dbea841f6a9807f4b7eb15d3c77a1a5e98fb7722cb638502d3504283a1c3b6dce0a7faed3f5babb46b2596190eed2ff4b7a14a03b6a3563787ab26ae67df
+    "@goldstack/utils-terraform": "npm:0.4.29"
+  checksum: ea9a75e3e8c575f1e54e12d40633702aab3e7e187287a040e44b6e20c853cd4891a5804247c1a44bda693260269669ad247786b1b4b187f43c29f3b4323951dd
   languageName: node
   linkType: hard
 
-"@goldstack/utils-terraform@npm:0.4.28":
-  version: 0.4.28
-  resolution: "@goldstack/utils-terraform@npm:0.4.28"
+"@goldstack/utils-terraform@npm:0.4.29":
+  version: 0.4.29
+  resolution: "@goldstack/utils-terraform@npm:0.4.29"
   dependencies:
     "@goldstack/infra": "npm:0.4.13"
     "@goldstack/infra-aws": "npm:0.4.22"
@@ -2300,7 +2405,7 @@ __metadata:
     "@goldstack/utils-sh": "npm:0.5.12"
     json-stable-stringify: "npm:^1.0.1"
     yargs: "npm:^17.5.1"
-  checksum: 36a2c68eee3a52e28444d5840ecc748c7f5c74401a6fd6219fe6bee86405f0e59ae656ddd01ce1e169a2477697c8727680f9f7cb31eb4488318bff33ad14d9b5
+  checksum: ad05a5603df6e0b79d860e7b84cf5054c2b0b6f415598908c8dfb667aa4086fe8e2a33b4f2464bd7e3469fcec797b959340b1e6f5faeb53ba28a935a70f51cfc
   languageName: node
   linkType: hard
 
@@ -2843,12 +2948,57 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@sinonjs/commons@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@sinonjs/commons@npm:2.0.0"
+  dependencies:
+    type-detect: "npm:4.0.8"
+  checksum: bd6b44957077cd99067dcf401e80ed5ea03ba930cba2066edbbfe302d5fc973a108db25c0ae4930ee53852716929e4c94fa3b8a1510a51ac6869443a139d1e3d
+  languageName: node
+  linkType: hard
+
+"@sinonjs/commons@npm:^3.0.0":
+  version: 3.0.0
+  resolution: "@sinonjs/commons@npm:3.0.0"
+  dependencies:
+    type-detect: "npm:4.0.8"
+  checksum: 086720ae0bc370829322df32612205141cdd44e592a8a9ca97197571f8f970352ea39d3bda75b347c43789013ddab36b34b59e40380a49bdae1c2df3aa85fe4f
+  languageName: node
+  linkType: hard
+
+"@sinonjs/fake-timers@npm:^10.0.2, @sinonjs/fake-timers@npm:^10.3.0":
+  version: 10.3.0
+  resolution: "@sinonjs/fake-timers@npm:10.3.0"
+  dependencies:
+    "@sinonjs/commons": "npm:^3.0.0"
+  checksum: 78155c7bd866a85df85e22028e046b8d46cf3e840f72260954f5e3ed5bd97d66c595524305a6841ffb3f681a08f6e5cef572a2cce5442a8a232dc29fb409b83e
+  languageName: node
+  linkType: hard
+
 "@sinonjs/fake-timers@npm:^9.1.2":
   version: 9.1.2
   resolution: "@sinonjs/fake-timers@npm:9.1.2"
   dependencies:
     "@sinonjs/commons": "npm:^1.7.0"
   checksum: 033c74ad389b0655b6af2fa1af31dddf45878e65879f06c5d1940e0ceb053a234f2f46c728dcd97df8ee9312431e45dd7aedaee3a69d47f73a2001a7547fc3d6
+  languageName: node
+  linkType: hard
+
+"@sinonjs/samsam@npm:^8.0.0":
+  version: 8.0.0
+  resolution: "@sinonjs/samsam@npm:8.0.0"
+  dependencies:
+    "@sinonjs/commons": "npm:^2.0.0"
+    lodash.get: "npm:^4.4.2"
+    type-detect: "npm:^4.0.8"
+  checksum: 0c9928a7d16a2428ba561e410d9d637c08014d549cac4979c63a6580c56b69378dba80ea01b17e8e163f2ca5dd331376dae92eae8364857ef827ae59dbcfe0ce
+  languageName: node
+  linkType: hard
+
+"@sinonjs/text-encoding@npm:^0.7.1":
+  version: 0.7.2
+  resolution: "@sinonjs/text-encoding@npm:0.7.2"
+  checksum: ec713fb44888c852d84ca54f6abf9c14d036c11a5d5bfab7825b8b9d2b22127dbe53412c68f4dbb0c05ea5ed61c64679bd2845c177d81462db41e0d3d7eca499
   languageName: node
   linkType: hard
 
@@ -3937,6 +4087,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/sinon@npm:^10.0.10":
+  version: 10.0.20
+  resolution: "@types/sinon@npm:10.0.20"
+  dependencies:
+    "@types/sinonjs__fake-timers": "npm:*"
+  checksum: 4c62cb8e45298ac8311e312f54e8afe9b170e79a6c1b10459e1216cc58ab66c90c9654d984e96de114003cfc62ddedb94f7e25b571e7da9b08800c9e8d864b0d
+  languageName: node
+  linkType: hard
+
+"@types/sinonjs__fake-timers@npm:*":
+  version: 8.1.5
+  resolution: "@types/sinonjs__fake-timers@npm:8.1.5"
+  checksum: 3a0b285fcb8e1eca435266faa27ffff206608b69041022a42857274e44d9305822e85af5e7a43a9fae78d2ab7dc0fcb49f3ae3bda1fa81f0203064dbf5afd4f6
+  languageName: node
+  linkType: hard
+
 "@types/stack-utils@npm:^2.0.0":
   version: 2.0.0
   resolution: "@types/stack-utils@npm:2.0.0"
@@ -4420,6 +4586,17 @@ __metadata:
   version: 1.0.0
   resolution: "atomic-sleep@npm:1.0.0"
   checksum: 3ab6d2cf46b31394b4607e935ec5c1c3c4f60f3e30f0913d35ea74b51b3585e84f590d09e58067f11762eec71c87d25314ce859030983dc0e4397eed21daa12e
+  languageName: node
+  linkType: hard
+
+"aws-sdk-client-mock@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "aws-sdk-client-mock@npm:4.0.1"
+  dependencies:
+    "@types/sinon": "npm:^10.0.10"
+    sinon: "npm:^16.1.3"
+    tslib: "npm:^2.1.0"
+  checksum: 32e415a05f626399828f51b6ab50ca2b09cd64add61a643824ebf941a6b6ae37dc34a9822cb81982fe4405ee41344ef346e583f77daab72d70e5533f5d4e3010
   languageName: node
   linkType: hard
 
@@ -5214,6 +5391,13 @@ __metadata:
   version: 4.0.2
   resolution: "diff@npm:4.0.2"
   checksum: ec09ec2101934ca5966355a229d77afcad5911c92e2a77413efda5455636c4cf2ce84057e2d7715227a2eeeda04255b849bd3ae3a4dd22eb22e86e76456df069
+  languageName: node
+  linkType: hard
+
+"diff@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "diff@npm:5.1.0"
+  checksum: f4557032a98b2967fe27b1a91dfcf8ebb6b9a24b1afe616b5c2312465100b861e9b8d4da374be535f2d6b967ce2f53826d7f6edc2a0d32b2ab55abc96acc2f9d
   languageName: node
   linkType: hard
 
@@ -7868,6 +8052,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"just-extend@npm:^4.0.2":
+  version: 4.2.1
+  resolution: "just-extend@npm:4.2.1"
+  checksum: 375389c0847d56300873fa622fbc5c5e208933e372bbedb39c82f583299cdad4fe9c4773bc35fcd9c42cd85744f07474ca4163aa0f9125dd5be37bc09075eb49
+  languageName: node
+  linkType: hard
+
 "kleur@npm:^3.0.3":
   version: 3.0.3
   resolution: "kleur@npm:3.0.3"
@@ -7879,7 +8070,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "lambda-python-job-1@workspace:packages/lambda-python-job-1"
   dependencies:
-    "@goldstack/template-lambda-trigger-cli": "npm:0.1.7"
+    "@goldstack/template-lambda-trigger-cli": "npm:0.1.8"
     "@goldstack/utils-git": "npm:0.2.9"
     "@goldstack/utils-log": "npm:0.3.12"
     "@goldstack/utils-sh": "npm:0.5.12"
@@ -7991,6 +8182,13 @@ __metadata:
   version: 4.4.0
   resolution: "lodash.flatten@npm:4.4.0"
   checksum: a2b192f220b0b6c78a6c0175e96bad888b9e0f2a887a8e8c1d0c29d03231fbf110bbb9be0d9de5f936537d143eeb9d5b4f44c4a44f5592c195bf2fae6a6b1e3a
+  languageName: node
+  linkType: hard
+
+"lodash.get@npm:^4.4.2":
+  version: 4.4.2
+  resolution: "lodash.get@npm:4.4.2"
+  checksum: 2a4925f6e89bc2c010a77a802d1ba357e17ed1ea03c2ddf6a146429f2856a216663e694a6aa3549a318cbbba3fd8b7decb392db457e6ac0b83dc745ed0a17380
   languageName: node
   linkType: hard
 
@@ -8323,6 +8521,19 @@ __metadata:
   version: 2.6.2
   resolution: "neo-async@npm:2.6.2"
   checksum: 1a7948fea86f2b33ec766bc899c88796a51ba76a4afc9026764aedc6e7cde692a09067031e4a1bf6db4f978ccd99e7f5b6c03fe47ad9865c3d4f99050d67e002
+  languageName: node
+  linkType: hard
+
+"nise@npm:^5.1.4":
+  version: 5.1.5
+  resolution: "nise@npm:5.1.5"
+  dependencies:
+    "@sinonjs/commons": "npm:^2.0.0"
+    "@sinonjs/fake-timers": "npm:^10.0.2"
+    "@sinonjs/text-encoding": "npm:^0.7.1"
+    just-extend: "npm:^4.0.2"
+    path-to-regexp: "npm:^1.7.0"
+  checksum: c6afe82b919a2c1985916d5bb3a738a7b2cfb017a6ab9479ec1ede62343051b40da88a1321517bb5d912c13e08b8d9ce9cdef9583edeb44d640af7273c35ebf2
   languageName: node
   linkType: hard
 
@@ -8696,6 +8907,15 @@ __metadata:
   version: 1.0.7
   resolution: "path-parse@npm:1.0.7"
   checksum: 49abf3d81115642938a8700ec580da6e830dde670be21893c62f4e10bd7dd4c3742ddc603fe24f898cba7eb0c6bc1777f8d9ac14185d34540c6d4d80cd9cae8a
+  languageName: node
+  linkType: hard
+
+"path-to-regexp@npm:^1.7.0":
+  version: 1.8.0
+  resolution: "path-to-regexp@npm:1.8.0"
+  dependencies:
+    isarray: "npm:0.0.1"
+  checksum: 45a01690f72919163cf89714e31a285937b14ad54c53734c826363fcf7beba9d9d0f2de802b4986b1264374562d6a3398a2e5289753a764e3a256494f1e52add
   languageName: node
   linkType: hard
 
@@ -9525,6 +9745,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"sinon@npm:^16.1.3":
+  version: 16.1.3
+  resolution: "sinon@npm:16.1.3"
+  dependencies:
+    "@sinonjs/commons": "npm:^3.0.0"
+    "@sinonjs/fake-timers": "npm:^10.3.0"
+    "@sinonjs/samsam": "npm:^8.0.0"
+    diff: "npm:^5.1.0"
+    nise: "npm:^5.1.4"
+    supports-color: "npm:^7.2.0"
+  checksum: 43d40437c3434b1e06c6c7f9f482b4096aaa869dbc486bf511a6319cc6900e1306f6d0bd0395e2278c208f75ed526e340cf1071b41efc6a9e8d9018b152f2326
+  languageName: node
+  linkType: hard
+
 "sisteransi@npm:^1.0.4":
   version: 1.0.5
   resolution: "sisteransi@npm:1.0.5"
@@ -9908,6 +10142,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"supports-color@npm:^7.2.0":
+  version: 7.2.0
+  resolution: "supports-color@npm:7.2.0"
+  dependencies:
+    has-flag: "npm:^4.0.0"
+  checksum: c8bb7afd564e3b26b50ca6ee47572c217526a1389fe018d00345856d4a9b08ffbd61fadaf283a87368d94c3dcdb8f5ffe2650a5a65863e21ad2730ca0f05210a
+  languageName: node
+  linkType: hard
+
 "supports-color@npm:^8.0.0":
   version: 8.1.1
   resolution: "supports-color@npm:8.1.1"
@@ -10050,7 +10293,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:*, tslib@npm:^2.4.0":
+"tslib@npm:*, tslib@npm:^2.1.0, tslib@npm:^2.4.0":
   version: 2.4.0
   resolution: "tslib@npm:2.4.0"
   checksum: d8379e68b36caf082c1905ec25d17df8261e1d68ddc1abfd6c91158a064f6e4402039ae7c02cf4c81d12e3a2a2c7cd8ea2f57b233eb80136a2e3e7279daf2911
@@ -10098,7 +10341,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"type-detect@npm:4.0.8":
+"type-detect@npm:4.0.8, type-detect@npm:^4.0.8":
   version: 4.0.8
   resolution: "type-detect@npm:4.0.8"
   checksum: 5179e3b8ebc51fce1b13efb75fdea4595484433f9683bbc2dca6d99789dba4e602ab7922d2656f2ce8383987467f7770131d4a7f06a26287db0615d2f4c4ce7d
@@ -10212,6 +10455,15 @@ __metadata:
   version: 1.0.2
   resolution: "util-deprecate@npm:1.0.2"
   checksum: 474acf1146cb2701fe3b074892217553dfcf9a031280919ba1b8d651a068c9b15d863b7303cb15bd00a862b498e6cf4ad7b4a08fb134edd5a6f7641681cb54a2
+  languageName: node
+  linkType: hard
+
+"uuid@npm:^8.3.0":
+  version: 8.3.0
+  resolution: "uuid@npm:8.3.0"
+  bin:
+    uuid: dist/bin/uuid
+  checksum: a9760cd58e2cec7015d5e1a615f6c4ed8d0bf47574558fb49ccb7fd6021f50311cc8a091099ee1f9ead3e823b95f1a661be3b0dcdd5ff15cd8d4e23b53430308
   languageName: node
   linkType: hard
 
