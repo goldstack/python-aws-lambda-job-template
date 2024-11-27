@@ -2,8 +2,8 @@
   "remoteState": [
     {
       "user": "goldstack-dev",
-      "terraformStateBucket": "goldstack-tfstate-ee73a0c368a6ac696a37e8ff80dc8a96b88bb6f4",
-      "terraformStateDynamoDBTable": "goldstack-tfstate-ee73a0c368a6ac696a37e8ff80dc8a96b88bb6f4-lock"
+      "terraformStateBucket": "goldstack-tfstate-fe68f74ff464cfdf2adf700715e4b84e2e2ef8b3",
+      "terraformStateDynamoDBTable": "goldstack-tfstate-fe68f74ff464cfdf2adf700715e4b84e2e2ef8b3-lock"
     }
   ]
 }
