@@ -33,7 +33,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@goldstack/nodemonx", "npm:0.4.21"],\
-          ["@goldstack/utils-typescript-references", "npm:0.3.12"],\
+          ["@goldstack/utils-typescript-references", "npm:0.3.13"],\
           ["@types/jest", "npm:29.5.14"],\
           ["@types/node", "npm:22.10.2"],\
           ["@typescript-eslint/eslint-plugin", "virtual:118eaf7d7e11c1968895b80d0e74124767955d7a39c2414ebb69277bab041512c73a27362583818990cb1cab51d2d799e82a9a2af5b31a1613c191ab3bca52ba#npm:5.42.1"],\
@@ -3570,10 +3570,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-typescript-references", [\
-      ["npm:0.3.12", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-typescript-references-npm-0.3.12-e4fc97f991-e81a7fc2f2.zip/node_modules/@goldstack/utils-typescript-references/",\
+      ["npm:0.3.13", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-typescript-references-npm-0.3.13-490b1e9794-74dfa118db.zip/node_modules/@goldstack/utils-typescript-references/",\
         "packageDependencies": [\
-          ["@goldstack/utils-typescript-references", "npm:0.3.12"],\
+          ["@goldstack/utils-typescript-references", "npm:0.3.13"],\
+          ["@goldstack/utils-log", "npm:0.3.18"],\
           ["source-map-support", "npm:0.5.21"],\
           ["yargs", "npm:17.5.1"]\
         ],\
@@ -11675,7 +11676,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["project-lambda-python-job", "workspace:."],\
           ["@goldstack/nodemonx", "npm:0.4.21"],\
-          ["@goldstack/utils-typescript-references", "npm:0.3.12"],\
+          ["@goldstack/utils-typescript-references", "npm:0.3.13"],\
           ["@types/jest", "npm:29.5.14"],\
           ["@types/node", "npm:22.10.2"],\
           ["@typescript-eslint/eslint-plugin", "virtual:118eaf7d7e11c1968895b80d0e74124767955d7a39c2414ebb69277bab041512c73a27362583818990cb1cab51d2d799e82a9a2af5b31a1613c191ab3bca52ba#npm:5.42.1"],\
