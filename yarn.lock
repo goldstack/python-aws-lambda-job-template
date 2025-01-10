@@ -2474,156 +2474,177 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@esbuild/android-arm64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/android-arm64@npm:0.17.18"
+"@esbuild/aix-ppc64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/aix-ppc64@npm:0.24.2"
+  conditions: os=aix & cpu=ppc64
+  languageName: node
+  linkType: hard
+
+"@esbuild/android-arm64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/android-arm64@npm:0.24.2"
   conditions: os=android & cpu=arm64
   languageName: node
   linkType: hard
 
-"@esbuild/android-arm@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/android-arm@npm:0.17.18"
+"@esbuild/android-arm@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/android-arm@npm:0.24.2"
   conditions: os=android & cpu=arm
   languageName: node
   linkType: hard
 
-"@esbuild/android-x64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/android-x64@npm:0.17.18"
+"@esbuild/android-x64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/android-x64@npm:0.24.2"
   conditions: os=android & cpu=x64
   languageName: node
   linkType: hard
 
-"@esbuild/darwin-arm64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/darwin-arm64@npm:0.17.18"
+"@esbuild/darwin-arm64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/darwin-arm64@npm:0.24.2"
   conditions: os=darwin & cpu=arm64
   languageName: node
   linkType: hard
 
-"@esbuild/darwin-x64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/darwin-x64@npm:0.17.18"
+"@esbuild/darwin-x64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/darwin-x64@npm:0.24.2"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
 
-"@esbuild/freebsd-arm64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/freebsd-arm64@npm:0.17.18"
+"@esbuild/freebsd-arm64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/freebsd-arm64@npm:0.24.2"
   conditions: os=freebsd & cpu=arm64
   languageName: node
   linkType: hard
 
-"@esbuild/freebsd-x64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/freebsd-x64@npm:0.17.18"
+"@esbuild/freebsd-x64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/freebsd-x64@npm:0.24.2"
   conditions: os=freebsd & cpu=x64
   languageName: node
   linkType: hard
 
-"@esbuild/linux-arm64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/linux-arm64@npm:0.17.18"
+"@esbuild/linux-arm64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/linux-arm64@npm:0.24.2"
   conditions: os=linux & cpu=arm64
   languageName: node
   linkType: hard
 
-"@esbuild/linux-arm@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/linux-arm@npm:0.17.18"
+"@esbuild/linux-arm@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/linux-arm@npm:0.24.2"
   conditions: os=linux & cpu=arm
   languageName: node
   linkType: hard
 
-"@esbuild/linux-ia32@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/linux-ia32@npm:0.17.18"
+"@esbuild/linux-ia32@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/linux-ia32@npm:0.24.2"
   conditions: os=linux & cpu=ia32
   languageName: node
   linkType: hard
 
-"@esbuild/linux-loong64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/linux-loong64@npm:0.17.18"
+"@esbuild/linux-loong64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/linux-loong64@npm:0.24.2"
   conditions: os=linux & cpu=loong64
   languageName: node
   linkType: hard
 
-"@esbuild/linux-mips64el@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/linux-mips64el@npm:0.17.18"
+"@esbuild/linux-mips64el@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/linux-mips64el@npm:0.24.2"
   conditions: os=linux & cpu=mips64el
   languageName: node
   linkType: hard
 
-"@esbuild/linux-ppc64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/linux-ppc64@npm:0.17.18"
+"@esbuild/linux-ppc64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/linux-ppc64@npm:0.24.2"
   conditions: os=linux & cpu=ppc64
   languageName: node
   linkType: hard
 
-"@esbuild/linux-riscv64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/linux-riscv64@npm:0.17.18"
+"@esbuild/linux-riscv64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/linux-riscv64@npm:0.24.2"
   conditions: os=linux & cpu=riscv64
   languageName: node
   linkType: hard
 
-"@esbuild/linux-s390x@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/linux-s390x@npm:0.17.18"
+"@esbuild/linux-s390x@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/linux-s390x@npm:0.24.2"
   conditions: os=linux & cpu=s390x
   languageName: node
   linkType: hard
 
-"@esbuild/linux-x64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/linux-x64@npm:0.17.18"
+"@esbuild/linux-x64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/linux-x64@npm:0.24.2"
   conditions: os=linux & cpu=x64
   languageName: node
   linkType: hard
 
-"@esbuild/netbsd-x64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/netbsd-x64@npm:0.17.18"
+"@esbuild/netbsd-arm64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/netbsd-arm64@npm:0.24.2"
+  conditions: os=netbsd & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@esbuild/netbsd-x64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/netbsd-x64@npm:0.24.2"
   conditions: os=netbsd & cpu=x64
   languageName: node
   linkType: hard
 
-"@esbuild/openbsd-x64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/openbsd-x64@npm:0.17.18"
+"@esbuild/openbsd-arm64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/openbsd-arm64@npm:0.24.2"
+  conditions: os=openbsd & cpu=arm64
+  languageName: node
+  linkType: hard
+
+"@esbuild/openbsd-x64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/openbsd-x64@npm:0.24.2"
   conditions: os=openbsd & cpu=x64
   languageName: node
   linkType: hard
 
-"@esbuild/sunos-x64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/sunos-x64@npm:0.17.18"
+"@esbuild/sunos-x64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/sunos-x64@npm:0.24.2"
   conditions: os=sunos & cpu=x64
   languageName: node
   linkType: hard
 
-"@esbuild/win32-arm64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/win32-arm64@npm:0.17.18"
+"@esbuild/win32-arm64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/win32-arm64@npm:0.24.2"
   conditions: os=win32 & cpu=arm64
   languageName: node
   linkType: hard
 
-"@esbuild/win32-ia32@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/win32-ia32@npm:0.17.18"
+"@esbuild/win32-ia32@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/win32-ia32@npm:0.24.2"
   conditions: os=win32 & cpu=ia32
   languageName: node
   linkType: hard
 
-"@esbuild/win32-x64@npm:0.17.18":
-  version: 0.17.18
-  resolution: "@esbuild/win32-x64@npm:0.17.18"
+"@esbuild/win32-x64@npm:0.24.2":
+  version: 0.24.2
+  resolution: "@esbuild/win32-x64@npm:0.24.2"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -2695,13 +2716,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-lambda-cli@npm:0.1.23":
-  version: 0.1.23
-  resolution: "@goldstack/template-lambda-cli@npm:0.1.23"
+"@goldstack/template-lambda-cli@npm:0.1.24":
+  version: 0.1.24
+  resolution: "@goldstack/template-lambda-cli@npm:0.1.24"
   dependencies:
     "@goldstack/infra": "npm:0.4.22"
     "@goldstack/infra-aws": "npm:0.4.32"
-    "@goldstack/utils-aws-lambda": "npm:0.3.41"
+    "@goldstack/utils-aws-lambda": "npm:0.3.42"
     "@goldstack/utils-cli": "npm:0.3.16"
     "@goldstack/utils-config": "npm:0.4.22"
     "@goldstack/utils-log": "npm:0.3.18"
@@ -2715,19 +2736,19 @@ __metadata:
   bin:
     template: ./bin/template
     template-lambda-cli: ./bin/template
-  checksum: 10/ff5bc7ed046f84bed55e70f9611060a10d5d7240c16757d0e2a438e09f3380e11e360cff19c6a9f21437c4aecffffbb96034b44e71f84013e0936995458744b3
+  checksum: 10/78f5de8d43cc2e06647fcbdf1d4b1c1ab8d51cdd77ef5d3d2a142c866e5da826a138139d6dca12eca34bdeb5350193331c6c8a7d70dc77300809b0fbd5cb0178
   languageName: node
   linkType: hard
 
-"@goldstack/template-lambda-trigger-cli@npm:0.1.26":
-  version: 0.1.26
-  resolution: "@goldstack/template-lambda-trigger-cli@npm:0.1.26"
+"@goldstack/template-lambda-trigger-cli@npm:0.1.27":
+  version: 0.1.27
+  resolution: "@goldstack/template-lambda-trigger-cli@npm:0.1.27"
   dependencies:
     "@goldstack/infra": "npm:0.4.22"
     "@goldstack/infra-aws": "npm:0.4.32"
-    "@goldstack/template-lambda-cli": "npm:0.1.23"
-    "@goldstack/template-sqs": "npm:0.1.21"
-    "@goldstack/utils-aws-lambda": "npm:0.3.41"
+    "@goldstack/template-lambda-cli": "npm:0.1.24"
+    "@goldstack/template-sqs": "npm:0.1.22"
+    "@goldstack/utils-aws-lambda": "npm:0.3.42"
     "@goldstack/utils-cli": "npm:0.3.16"
     "@goldstack/utils-config": "npm:0.4.22"
     "@goldstack/utils-log": "npm:0.3.18"
@@ -2741,13 +2762,13 @@ __metadata:
   bin:
     template: ./bin/template
     template-lambda-http-cli: ./bin/template
-  checksum: 10/4105a2730bed24f22201c96f7f2e44440324160514fc15a37b63e86fb41725350b8d017e247771ce997142a798fcc1b16d7b702e3d00a67de380142fabb023e9
+  checksum: 10/6ca10af169bf50ecb3039a2fd2b2b43ad685ad9315963091d79b444d59ab5950cab7ecb87aec8bd30e9284b118afc09703eaabffd851742602bb11058009aa65
   languageName: node
   linkType: hard
 
-"@goldstack/template-sqs@npm:0.1.21":
-  version: 0.1.21
-  resolution: "@goldstack/template-sqs@npm:0.1.21"
+"@goldstack/template-sqs@npm:0.1.22":
+  version: 0.1.22
+  resolution: "@goldstack/template-sqs@npm:0.1.22"
   dependencies:
     "@aws-sdk/client-sqs": "npm:3.645.0"
     "@aws-sdk/credential-providers": "npm:3.645.0"
@@ -2762,8 +2783,8 @@ __metadata:
     "@goldstack/utils-terraform": "npm:0.4.42"
     "@goldstack/utils-terraform-aws": "npm:0.4.45"
     aws-sdk-client-mock: "npm:^4.0.1"
-    uuid: "npm:^8.3.0"
-  checksum: 10/2581eb2729cbce8955732c7493adb11191f567cb6e22e125c83e09b893630e28406160450c91d0c34272f27312a90cf358b6d8d639931b7b16bd308ee3bc34e0
+    uuid: "npm:^11.0.5"
+  checksum: 10/be6c8d1d600a68acd19ef4728a98318cdfc67ac57488ad1eeff25b09d6330621aa573dc151d413bda7c6b8840aff74dc9154ed54ef7d5bf4877e9f67ee85c892
   languageName: node
   linkType: hard
 
@@ -2780,9 +2801,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-aws-lambda@npm:0.3.41":
-  version: 0.3.41
-  resolution: "@goldstack/utils-aws-lambda@npm:0.3.41"
+"@goldstack/utils-aws-lambda@npm:0.3.42":
+  version: 0.3.42
+  resolution: "@goldstack/utils-aws-lambda@npm:0.3.42"
   dependencies:
     "@aws-sdk/types": "npm:^3.609.0"
     "@goldstack/infra-aws": "npm:0.4.32"
@@ -2791,9 +2812,9 @@ __metadata:
     "@goldstack/utils-sh": "npm:0.5.21"
     "@yarnpkg/esbuild-plugin-pnp": "npm:^3.0.0-rc.15"
     archiver: "npm:^5.3.1"
-    esbuild: "npm:^0.17.18"
-    esbuild-ssr-css-modules-plugin: "npm:0.1.14"
-  checksum: 10/831c85af603691cba727d7517b547c53fe400ee4ffc05c0f7d7725b1fe91f3fd1e5c8d47bb8b307cb38cd4edadd5e38596fbf897aab86dec29bcb0f615cd3133
+    esbuild: "npm:^0.24.2"
+    esbuild-ssr-css-modules-plugin: "npm:0.1.15"
+  checksum: 10/07c48715670bbdb94a3ffe61816106478e00b8e218ccf82daa256c4764f58bfc18461e564d6f73d3ba8d74da57eeacc89defa569c30b609f5bf4c27ff058019a
   languageName: node
   linkType: hard
 
@@ -6515,46 +6536,51 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild-ssr-css-modules-plugin@npm:0.1.14":
-  version: 0.1.14
-  resolution: "esbuild-ssr-css-modules-plugin@npm:0.1.14"
+"esbuild-ssr-css-modules-plugin@npm:0.1.15":
+  version: 0.1.15
+  resolution: "esbuild-ssr-css-modules-plugin@npm:0.1.15"
   dependencies:
     node-css-require: "npm:0.4.13"
     postcss-modules-sync: "npm:^1.0.0"
     sha256: "npm:^0.2.0"
   peerDependencies:
-    esbuild: ^0.17.18
-  checksum: 10/e473641e27f298d51d0184b5c2c1532a9636293a3f4bd8902c76d235cdb56344a0a795ee2e47795ee7d1aa942c7c3480ff0e466065dd793eb1e65deefb5d5d50
+    esbuild: ^0.24.2
+  checksum: 10/4a4f6ad3410d5588466a8fda4aec42dd44fcbdd79d800683929b25572e866cf50764edf993e30844d9f893ca82bccddd9428b3f3544b1291fce76c69671300a4
   languageName: node
   linkType: hard
 
-"esbuild@npm:^0.17.18":
-  version: 0.17.18
-  resolution: "esbuild@npm:0.17.18"
+"esbuild@npm:^0.24.2":
+  version: 0.24.2
+  resolution: "esbuild@npm:0.24.2"
   dependencies:
-    "@esbuild/android-arm": "npm:0.17.18"
-    "@esbuild/android-arm64": "npm:0.17.18"
-    "@esbuild/android-x64": "npm:0.17.18"
-    "@esbuild/darwin-arm64": "npm:0.17.18"
-    "@esbuild/darwin-x64": "npm:0.17.18"
-    "@esbuild/freebsd-arm64": "npm:0.17.18"
-    "@esbuild/freebsd-x64": "npm:0.17.18"
-    "@esbuild/linux-arm": "npm:0.17.18"
-    "@esbuild/linux-arm64": "npm:0.17.18"
-    "@esbuild/linux-ia32": "npm:0.17.18"
-    "@esbuild/linux-loong64": "npm:0.17.18"
-    "@esbuild/linux-mips64el": "npm:0.17.18"
-    "@esbuild/linux-ppc64": "npm:0.17.18"
-    "@esbuild/linux-riscv64": "npm:0.17.18"
-    "@esbuild/linux-s390x": "npm:0.17.18"
-    "@esbuild/linux-x64": "npm:0.17.18"
-    "@esbuild/netbsd-x64": "npm:0.17.18"
-    "@esbuild/openbsd-x64": "npm:0.17.18"
-    "@esbuild/sunos-x64": "npm:0.17.18"
-    "@esbuild/win32-arm64": "npm:0.17.18"
-    "@esbuild/win32-ia32": "npm:0.17.18"
-    "@esbuild/win32-x64": "npm:0.17.18"
+    "@esbuild/aix-ppc64": "npm:0.24.2"
+    "@esbuild/android-arm": "npm:0.24.2"
+    "@esbuild/android-arm64": "npm:0.24.2"
+    "@esbuild/android-x64": "npm:0.24.2"
+    "@esbuild/darwin-arm64": "npm:0.24.2"
+    "@esbuild/darwin-x64": "npm:0.24.2"
+    "@esbuild/freebsd-arm64": "npm:0.24.2"
+    "@esbuild/freebsd-x64": "npm:0.24.2"
+    "@esbuild/linux-arm": "npm:0.24.2"
+    "@esbuild/linux-arm64": "npm:0.24.2"
+    "@esbuild/linux-ia32": "npm:0.24.2"
+    "@esbuild/linux-loong64": "npm:0.24.2"
+    "@esbuild/linux-mips64el": "npm:0.24.2"
+    "@esbuild/linux-ppc64": "npm:0.24.2"
+    "@esbuild/linux-riscv64": "npm:0.24.2"
+    "@esbuild/linux-s390x": "npm:0.24.2"
+    "@esbuild/linux-x64": "npm:0.24.2"
+    "@esbuild/netbsd-arm64": "npm:0.24.2"
+    "@esbuild/netbsd-x64": "npm:0.24.2"
+    "@esbuild/openbsd-arm64": "npm:0.24.2"
+    "@esbuild/openbsd-x64": "npm:0.24.2"
+    "@esbuild/sunos-x64": "npm:0.24.2"
+    "@esbuild/win32-arm64": "npm:0.24.2"
+    "@esbuild/win32-ia32": "npm:0.24.2"
+    "@esbuild/win32-x64": "npm:0.24.2"
   dependenciesMeta:
+    "@esbuild/aix-ppc64":
+      optional: true
     "@esbuild/android-arm":
       optional: true
     "@esbuild/android-arm64":
@@ -6587,7 +6613,11 @@ __metadata:
       optional: true
     "@esbuild/linux-x64":
       optional: true
+    "@esbuild/netbsd-arm64":
+      optional: true
     "@esbuild/netbsd-x64":
+      optional: true
+    "@esbuild/openbsd-arm64":
       optional: true
     "@esbuild/openbsd-x64":
       optional: true
@@ -6601,7 +6631,7 @@ __metadata:
       optional: true
   bin:
     esbuild: bin/esbuild
-  checksum: 10/bd0d55aef9319a07324babce0cf854cdbd043030d9dac137a09b08b844caf80667c24c0d88e3bb91c4831846da32c17c66ebb68181e82bce9fdbfef521c633df
+  checksum: 10/95425071c9f24ff88bf61e0710b636ec0eb24ddf8bd1f7e1edef3044e1221104bbfa7bbb31c18018c8c36fa7902c5c0b843f829b981ebc89160cf5eebdaa58f4
   languageName: node
   linkType: hard
 
@@ -8899,7 +8929,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "lambda-python-job-1@workspace:packages/lambda-python-job-1"
   dependencies:
-    "@goldstack/template-lambda-trigger-cli": "npm:0.1.26"
+    "@goldstack/template-lambda-trigger-cli": "npm:0.1.27"
     "@goldstack/utils-git": "npm:0.2.12"
     "@goldstack/utils-log": "npm:0.3.18"
     "@goldstack/utils-sh": "npm:0.5.21"
@@ -11369,12 +11399,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uuid@npm:^8.3.0":
-  version: 8.3.0
-  resolution: "uuid@npm:8.3.0"
+"uuid@npm:^11.0.5":
+  version: 11.0.5
+  resolution: "uuid@npm:11.0.5"
   bin:
-    uuid: dist/bin/uuid
-  checksum: 10/a9760cd58e2cec7015d5e1a615f6c4ed8d0bf47574558fb49ccb7fd6021f50311cc8a091099ee1f9ead3e823b95f1a661be3b0dcdd5ff15cd8d4e23b53430308
+    uuid: dist/esm/bin/uuid
+  checksum: 10/0594ecdff3051e15d4a2c614b4c72e73af373bde0a5d156512353c01156975295d024ae8d7151846d7bd4d22ccd251b16ed51b4318fa71505fb20ad984102dc1
   languageName: node
   linkType: hard
 
