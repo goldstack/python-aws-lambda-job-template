@@ -1,8 +1,8 @@
 {
   "$schema": "./schemas/package.schema.json",
+  "name": "project-lambda-python-job",
   "configuration": {},
   "deployments": [],
-  "name": "project-lambda-python-job",
   "template": "yarn-pnp-monorepo",
   "templateVersion": "0.1.0"
 }
