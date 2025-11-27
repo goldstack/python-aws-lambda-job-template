@@ -2942,9 +2942,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-lambda-cli@npm:0.1.42":
-  version: 0.1.42
-  resolution: "@goldstack/template-lambda-cli@npm:0.1.42"
+"@goldstack/template-lambda-cli@npm:0.1.43":
+  version: 0.1.43
+  resolution: "@goldstack/template-lambda-cli@npm:0.1.43"
   dependencies:
     "@goldstack/infra": "npm:0.4.29"
     "@goldstack/infra-aws": "npm:0.4.45"
@@ -2962,17 +2962,17 @@ __metadata:
   bin:
     template: ./bin/template
     template-lambda-cli: ./bin/template
-  checksum: 10/d6670f9052924b3c38f3b5ae5f81ba85d103d815826446aab2c6f11bd387d0cee3c86c196b777c181e3072d1f29aa58b91e3b0fec8d732e4c5cdc84bcfa941c0
+  checksum: 10/7836a51faaa1ff73ab1244420101f47c5e0501a644b4e92694de70c6a2bf3a0f60b1f0092c70c7cdbaad74526f6dd62cc171ee701dd1e5b9abf6e94c7997ef75
   languageName: node
   linkType: hard
 
-"@goldstack/template-lambda-trigger-cli@npm:0.1.45":
-  version: 0.1.45
-  resolution: "@goldstack/template-lambda-trigger-cli@npm:0.1.45"
+"@goldstack/template-lambda-trigger-cli@npm:0.1.46":
+  version: 0.1.46
+  resolution: "@goldstack/template-lambda-trigger-cli@npm:0.1.46"
   dependencies:
     "@goldstack/infra": "npm:0.4.29"
     "@goldstack/infra-aws": "npm:0.4.45"
-    "@goldstack/template-lambda-cli": "npm:0.1.42"
+    "@goldstack/template-lambda-cli": "npm:0.1.43"
     "@goldstack/template-sqs": "npm:0.1.38"
     "@goldstack/utils-aws-lambda": "npm:0.3.57"
     "@goldstack/utils-cli": "npm:0.3.23"
@@ -2988,7 +2988,7 @@ __metadata:
   bin:
     template: ./bin/template
     template-lambda-http-cli: ./bin/template
-  checksum: 10/6ce1c4e240891a793bac9c08312b64cef88c26ff7e77a4d3881a9042066a65e2573bc50f58acf22971e9400a8d4e5a04c861096724e7c7568b400d6386ff3fc8
+  checksum: 10/9da73c4054d54eb121348a0175f1ec2540be42aebf366125d8aa9b6f1ea18bd128c6592bb51036971c561e7cf972f25cce8a87296dac295be2331f7dc0387313
   languageName: node
   linkType: hard
 
@@ -8382,7 +8382,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "lambda-python-job-1@workspace:packages/lambda-python-job-1"
   dependencies:
-    "@goldstack/template-lambda-trigger-cli": "npm:0.1.45"
+    "@goldstack/template-lambda-trigger-cli": "npm:0.1.46"
     "@goldstack/utils-git": "npm:0.2.18"
     "@goldstack/utils-log": "npm:0.3.25"
     "@goldstack/utils-sh": "npm:0.5.28"

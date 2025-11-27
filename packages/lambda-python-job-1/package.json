@@ -14,14 +14,14 @@
     "clean": "rimraf 'dist/'",
     "clean-terraform": "rimraf ./infra/aws/.terraform",
     "compile": "tsc -p tsconfig.json",
-    "deploy": "yarn build && yarn template-ts deploy",
-    "infra": "yarn template-ts infra",
+    "deploy": "yarn build \"$@\" && yarn template-ts deploy \"$@\"",
+    "infra": "yarn template-ts infra \"$@\"",
     "template": "yarn template-ts",
     "template-ts": "ts-node --swc scripts/template.ts",
     "test": "GOLDSTACK_DEPLOYMENT=local jest --passWithNoTests --config=./jest.config.js --runInBand"
   },
   "dependencies": {
-    "@goldstack/template-lambda-trigger-cli": "0.1.45",
+    "@goldstack/template-lambda-trigger-cli": "0.1.46",
     "@goldstack/utils-git": "0.2.18",
     "@goldstack/utils-log": "0.3.25",
     "@goldstack/utils-sh": "0.5.28"

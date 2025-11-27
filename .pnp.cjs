@@ -3516,12 +3516,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-lambda-cli", [\
-      ["npm:0.1.42", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-lambda-cli-npm-0.1.42-cd5f7f63b0-d6670f9052.zip/node_modules/@goldstack/template-lambda-cli/",\
+      ["npm:0.1.43", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-lambda-cli-npm-0.1.43-61bd92e24e-7836a51faa.zip/node_modules/@goldstack/template-lambda-cli/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.29"],\
           ["@goldstack/infra-aws", "npm:0.4.45"],\
-          ["@goldstack/template-lambda-cli", "npm:0.1.42"],\
+          ["@goldstack/template-lambda-cli", "npm:0.1.43"],\
           ["@goldstack/utils-aws-lambda", "npm:0.3.57"],\
           ["@goldstack/utils-cli", "npm:0.3.23"],\
           ["@goldstack/utils-config", "npm:0.4.29"],\
@@ -3538,13 +3538,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-lambda-trigger-cli", [\
-      ["npm:0.1.45", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-lambda-trigger-cli-npm-0.1.45-fe2b205dc2-6ce1c4e240.zip/node_modules/@goldstack/template-lambda-trigger-cli/",\
+      ["npm:0.1.46", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-lambda-trigger-cli-npm-0.1.46-c33311eb9b-9da73c4054.zip/node_modules/@goldstack/template-lambda-trigger-cli/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.29"],\
           ["@goldstack/infra-aws", "npm:0.4.45"],\
-          ["@goldstack/template-lambda-cli", "npm:0.1.42"],\
-          ["@goldstack/template-lambda-trigger-cli", "npm:0.1.45"],\
+          ["@goldstack/template-lambda-cli", "npm:0.1.43"],\
+          ["@goldstack/template-lambda-trigger-cli", "npm:0.1.46"],\
           ["@goldstack/template-sqs", "npm:0.1.38"],\
           ["@goldstack/utils-aws-lambda", "npm:0.3.57"],\
           ["@goldstack/utils-cli", "npm:0.3.23"],\
@@ -9437,7 +9437,7 @@ const RAW_RUNTIME_STATE =
       ["workspace:packages/lambda-python-job-1", {\
         "packageLocation": "./packages/lambda-python-job-1/",\
         "packageDependencies": [\
-          ["@goldstack/template-lambda-trigger-cli", "npm:0.1.45"],\
+          ["@goldstack/template-lambda-trigger-cli", "npm:0.1.46"],\
           ["@goldstack/utils-git", "npm:0.2.18"],\
           ["@goldstack/utils-log", "npm:0.3.25"],\
           ["@goldstack/utils-sh", "npm:0.5.28"],\
