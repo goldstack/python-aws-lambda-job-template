@@ -3444,19 +3444,19 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-lambda-cli", [\
-      ["npm:0.1.51", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-lambda-cli-npm-0.1.51-61af909458-d433b32d1c.zip/node_modules/@goldstack/template-lambda-cli/",\
+      ["npm:0.1.52", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-lambda-cli-npm-0.1.52-9a151f30dc-bc8f034bd6.zip/node_modules/@goldstack/template-lambda-cli/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.35"],\
           ["@goldstack/infra-aws", "npm:0.4.53"],\
-          ["@goldstack/template-lambda-cli", "npm:0.1.51"],\
+          ["@goldstack/template-lambda-cli", "npm:0.1.52"],\
           ["@goldstack/utils-aws-lambda", "npm:0.3.65"],\
           ["@goldstack/utils-cli", "npm:0.3.27"],\
           ["@goldstack/utils-config", "npm:0.4.35"],\
           ["@goldstack/utils-log", "npm:0.3.29"],\
           ["@goldstack/utils-package", "npm:0.4.37"],\
           ["@goldstack/utils-package-config", "npm:0.4.37"],\
-          ["@goldstack/utils-template", "npm:0.4.35"],\
+          ["@goldstack/utils-template", "npm:0.4.36"],\
           ["@goldstack/utils-terraform", "npm:0.4.66"],\
           ["@goldstack/utils-terraform-aws", "npm:0.4.69"],\
           ["source-map-support", "npm:0.5.21"],\
@@ -3466,13 +3466,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-lambda-trigger-cli", [\
-      ["npm:0.1.54", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-lambda-trigger-cli-npm-0.1.54-32d623c519-8c7dcacda3.zip/node_modules/@goldstack/template-lambda-trigger-cli/",\
+      ["npm:0.1.55", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-lambda-trigger-cli-npm-0.1.55-ee80821d2a-58cc88e538.zip/node_modules/@goldstack/template-lambda-trigger-cli/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.35"],\
           ["@goldstack/infra-aws", "npm:0.4.53"],\
-          ["@goldstack/template-lambda-cli", "npm:0.1.51"],\
-          ["@goldstack/template-lambda-trigger-cli", "npm:0.1.54"],\
+          ["@goldstack/template-lambda-cli", "npm:0.1.52"],\
+          ["@goldstack/template-lambda-trigger-cli", "npm:0.1.55"],\
           ["@goldstack/template-sqs", "npm:0.1.46"],\
           ["@goldstack/utils-aws-lambda", "npm:0.3.65"],\
           ["@goldstack/utils-cli", "npm:0.3.27"],\
@@ -3480,7 +3480,7 @@ const RAW_RUNTIME_STATE =
           ["@goldstack/utils-log", "npm:0.3.29"],\
           ["@goldstack/utils-package", "npm:0.4.37"],\
           ["@goldstack/utils-package-config", "npm:0.4.37"],\
-          ["@goldstack/utils-template", "npm:0.4.35"],\
+          ["@goldstack/utils-template", "npm:0.4.36"],\
           ["@goldstack/utils-terraform", "npm:0.4.66"],\
           ["@goldstack/utils-terraform-aws", "npm:0.4.69"],\
           ["source-map-support", "npm:0.5.21"],\
@@ -3664,12 +3664,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-template", [\
-      ["npm:0.4.35", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-template-npm-0.4.35-2b31cd8518-239be29880.zip/node_modules/@goldstack/utils-template/",\
+      ["npm:0.4.36", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-template-npm-0.4.36-d001fc57b3-a8e84d5110.zip/node_modules/@goldstack/utils-template/",\
         "packageDependencies": [\
           ["@goldstack/utils-config", "npm:0.4.35"],\
           ["@goldstack/utils-sh", "npm:0.5.34"],\
-          ["@goldstack/utils-template", "npm:0.4.35"]\
+          ["@goldstack/utils-template", "npm:0.4.36"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -9423,7 +9423,7 @@ const RAW_RUNTIME_STATE =
       ["workspace:packages/lambda-python-job-1", {\
         "packageLocation": "./packages/lambda-python-job-1/",\
         "packageDependencies": [\
-          ["@goldstack/template-lambda-trigger-cli", "npm:0.1.54"],\
+          ["@goldstack/template-lambda-trigger-cli", "npm:0.1.55"],\
           ["@goldstack/utils-git", "npm:0.2.22"],\
           ["@goldstack/utils-log", "npm:0.3.29"],\
           ["@goldstack/utils-sh", "npm:0.5.34"],\
