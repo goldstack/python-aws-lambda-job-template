@@ -2772,13 +2772,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-lambda-cli@npm:0.1.57":
-  version: 0.1.57
-  resolution: "@goldstack/template-lambda-cli@npm:0.1.57"
+"@goldstack/template-lambda-cli@npm:0.1.58":
+  version: 0.1.58
+  resolution: "@goldstack/template-lambda-cli@npm:0.1.58"
   dependencies:
     "@goldstack/infra": "npm:0.4.39"
     "@goldstack/infra-aws": "npm:0.4.57"
-    "@goldstack/utils-aws-lambda": "npm:0.3.69"
+    "@goldstack/utils-aws-lambda": "npm:0.3.70"
     "@goldstack/utils-cli": "npm:0.3.31"
     "@goldstack/utils-config": "npm:0.4.39"
     "@goldstack/utils-log": "npm:0.3.33"
@@ -2792,19 +2792,19 @@ __metadata:
   bin:
     template: ./bin/template
     template-lambda-cli: ./bin/template
-  checksum: 10/8cccdc6f9e89840af44b0938cfae98726267bc8e043179cd8edd75db66c18fe7a6cf744d3f8504460bb4770df5b0d0b1d9ca9a3881de782847bbcd1024b5dc4a
+  checksum: 10/827aa5f1e74d6d1a835d9b138a8d04b9161cf6ecd8d53ebb48723942daf74534b262846b8854da4de2ed282f3dfa00352f949e31f91f2911e14ce1a1e8b1d760
   languageName: node
   linkType: hard
 
-"@goldstack/template-lambda-trigger-cli@npm:0.1.60":
-  version: 0.1.60
-  resolution: "@goldstack/template-lambda-trigger-cli@npm:0.1.60"
+"@goldstack/template-lambda-trigger-cli@npm:0.1.61":
+  version: 0.1.61
+  resolution: "@goldstack/template-lambda-trigger-cli@npm:0.1.61"
   dependencies:
     "@goldstack/infra": "npm:0.4.39"
     "@goldstack/infra-aws": "npm:0.4.57"
-    "@goldstack/template-lambda-cli": "npm:0.1.57"
+    "@goldstack/template-lambda-cli": "npm:0.1.58"
     "@goldstack/template-sqs": "npm:0.1.50"
-    "@goldstack/utils-aws-lambda": "npm:0.3.69"
+    "@goldstack/utils-aws-lambda": "npm:0.3.70"
     "@goldstack/utils-cli": "npm:0.3.31"
     "@goldstack/utils-config": "npm:0.4.39"
     "@goldstack/utils-log": "npm:0.3.33"
@@ -2818,7 +2818,7 @@ __metadata:
   bin:
     template: ./bin/template
     template-lambda-http-cli: ./bin/template
-  checksum: 10/947b81f6e3e6028abb26205e15cb744720026ee45ba9c01388e627931d53990d1f10db410f2fd4ff7efb9eeeb1ffa4c0b34596790d9ed489ed28b8e624d1a025
+  checksum: 10/e5d922c8f65651619f994486eb4b46d87d5223b698b6bcbcd3ac3ef067b32262709289bad7bf6317c6316944b02b46cf1520371531612ae1b36438cce1b12a64
   languageName: node
   linkType: hard
 
@@ -2857,9 +2857,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/utils-aws-lambda@npm:0.3.69":
-  version: 0.3.69
-  resolution: "@goldstack/utils-aws-lambda@npm:0.3.69"
+"@goldstack/utils-aws-lambda@npm:0.3.70":
+  version: 0.3.70
+  resolution: "@goldstack/utils-aws-lambda@npm:0.3.70"
   dependencies:
     "@aws-sdk/types": "npm:^3.957.0"
     "@goldstack/infra-aws": "npm:0.4.57"
@@ -2869,8 +2869,8 @@ __metadata:
     "@yarnpkg/esbuild-plugin-pnp": "npm:^3.0.0-rc.15"
     archiver: "npm:^5.3.1"
     esbuild: "npm:^0.25.6"
-    esbuild-ssr-css-modules-plugin: "npm:0.1.31"
-  checksum: 10/c1aefe79351839c2066084d63c7ccc9a4470f11ac7ec6f468b1a968ab3e52c37e2108cf142579e552d731db66a98bb7355a38c66d557125a211af85824654080
+    esbuild-ssr-css-modules-plugin: "npm:0.1.32"
+  checksum: 10/ec6d6e147cb0f57e56591d82d88a800d50e97c656246291cb2baf63c5f17b655238b4f7f94b8ec9e01c1c3a47e132b06cf4c8236aac2b99086dda506cf9ac84e
   languageName: node
   linkType: hard
 
@@ -6608,16 +6608,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"esbuild-ssr-css-modules-plugin@npm:0.1.31":
-  version: 0.1.31
-  resolution: "esbuild-ssr-css-modules-plugin@npm:0.1.31"
+"esbuild-ssr-css-modules-plugin@npm:0.1.32":
+  version: 0.1.32
+  resolution: "esbuild-ssr-css-modules-plugin@npm:0.1.32"
   dependencies:
-    node-css-require: "npm:0.4.29"
+    node-css-require: "npm:0.4.30"
     postcss-modules-sync: "npm:^1.0.0"
     sha256: "npm:^0.2.0"
   peerDependencies:
     esbuild: ^0.25.6
-  checksum: 10/2cba553d3dc4985926ea863656ae79498cf42660c1945937b442d4d2fe1edc4c56dc2fa152022a2182a2508d6a2f11cf49ddcf3b3d8647013c52b1574fa2287e
+  checksum: 10/f97434059f269145f8bc2b36bf7e5886a30be9b08385e37b1739c4dea47739e66c9db068d8c02dfc4fcae9f2d0906c589033902cf54cf0d20f8474d8847bfec8
   languageName: node
   linkType: hard
 
@@ -8178,7 +8178,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "lambda-python-job-1@workspace:packages/lambda-python-job-1"
   dependencies:
-    "@goldstack/template-lambda-trigger-cli": "npm:0.1.60"
+    "@goldstack/template-lambda-trigger-cli": "npm:0.1.61"
     "@goldstack/utils-log": "npm:0.3.33"
     "@goldstack/utils-sh": "npm:0.5.38"
     "@swc/core": "npm:^1.15.8"
@@ -8633,15 +8633,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-css-require@npm:0.4.29":
-  version: 0.4.29
-  resolution: "node-css-require@npm:0.4.29"
+"node-css-require@npm:0.4.30":
+  version: 0.4.30
+  resolution: "node-css-require@npm:0.4.30"
   dependencies:
     pirates: "npm:^4.0.5"
     postcss: "npm:^8.5.6"
     postcss-modules: "npm:^5.0.0"
     postcss-modules-sync: "npm:^1.0.0"
-  checksum: 10/62eb237ba8a46fe8affebfd002e9608ae7187030d55589f0be6deb518ef81cc72f980417a6fc2300c5f77e4d6c3d1849d342737c5ba4e07b79f72c169f4b208e
+  checksum: 10/e455f98ddfaee0eaea26fe65eb73d8c6c134c1d029d357d87aa24863a5c16ac8cf05589880e826437cfc45bfa77bb86a3e0cc7998a317eac8b4fe666d1b4f79f
   languageName: node
   linkType: hard
 
