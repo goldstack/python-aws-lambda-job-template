@@ -34,8 +34,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@biomejs/biome", "npm:2.3.5"],\
-          ["@goldstack/nodemonx", "npm:0.4.42"],\
-          ["@goldstack/utils-typescript-references", "npm:0.3.31"],\
+          ["@goldstack/nodemonx", "npm:0.4.43"],\
+          ["@goldstack/utils-typescript-references", "npm:0.3.32"],\
           ["@types/jest", "npm:30.0.0"],\
           ["@types/node", "npm:25.0.3"],\
           ["nodemon", "npm:3.1.14"],\
@@ -2427,12 +2427,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/nodemonx", [\
-      ["npm:0.4.42", {\
-        "packageLocation": "./.yarn/cache/@goldstack-nodemonx-npm-0.4.42-9f022e0307-8876dfca23.zip/node_modules/@goldstack/nodemonx/",\
+      ["npm:0.4.43", {\
+        "packageLocation": "./.yarn/cache/@goldstack-nodemonx-npm-0.4.43-7b97fedaca-8a12c6c6d6.zip/node_modules/@goldstack/nodemonx/",\
         "packageDependencies": [\
-          ["@goldstack/nodemonx", "npm:0.4.42"],\
-          ["@goldstack/utils-log", "npm:0.3.35"],\
-          ["@goldstack/utils-sh", "npm:0.5.40"],\
+          ["@goldstack/nodemonx", "npm:0.4.43"],\
+          ["@goldstack/utils-log", "npm:0.3.36"],\
+          ["@goldstack/utils-sh", "npm:0.5.41"],\
           ["minimatch", "npm:10.2.5"],\
           ["node-watch", "npm:0.6.4"]\
         ],\
@@ -2440,13 +2440,13 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-lambda-cli", [\
-      ["npm:0.1.78", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-lambda-cli-npm-0.1.78-46814f004b-1e90cdfe86.zip/node_modules/@goldstack/template-lambda-cli/",\
+      ["npm:0.1.79", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-lambda-cli-npm-0.1.79-34819b23ec-a5f31bf940.zip/node_modules/@goldstack/template-lambda-cli/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.42"],\
           ["@goldstack/infra-aws", "npm:0.4.68"],\
-          ["@goldstack/template-lambda-cli", "npm:0.1.78"],\
-          ["@goldstack/utils-aws-lambda", "npm:0.3.82"],\
+          ["@goldstack/template-lambda-cli", "npm:0.1.79"],\
+          ["@goldstack/utils-aws-lambda", "npm:0.3.83"],\
           ["@goldstack/utils-cli", "npm:0.3.33"],\
           ["@goldstack/utils-config", "npm:0.4.42"],\
           ["@goldstack/utils-log", "npm:0.3.35"],\
@@ -2462,15 +2462,15 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-lambda-trigger-cli", [\
-      ["npm:0.1.81", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-lambda-trigger-cli-npm-0.1.81-2943f68f15-3bc8715eae.zip/node_modules/@goldstack/template-lambda-trigger-cli/",\
+      ["npm:0.1.82", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-lambda-trigger-cli-npm-0.1.82-8420d31a68-6977226591.zip/node_modules/@goldstack/template-lambda-trigger-cli/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.42"],\
           ["@goldstack/infra-aws", "npm:0.4.68"],\
-          ["@goldstack/template-lambda-cli", "npm:0.1.78"],\
-          ["@goldstack/template-lambda-trigger-cli", "npm:0.1.81"],\
+          ["@goldstack/template-lambda-cli", "npm:0.1.79"],\
+          ["@goldstack/template-lambda-trigger-cli", "npm:0.1.82"],\
           ["@goldstack/template-sqs", "npm:0.1.69"],\
-          ["@goldstack/utils-aws-lambda", "npm:0.3.82"],\
+          ["@goldstack/utils-aws-lambda", "npm:0.3.83"],\
           ["@goldstack/utils-cli", "npm:0.3.33"],\
           ["@goldstack/utils-config", "npm:0.4.42"],\
           ["@goldstack/utils-log", "npm:0.3.35"],\
@@ -2523,19 +2523,19 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-aws-lambda", [\
-      ["npm:0.3.82", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-aws-lambda-npm-0.3.82-417b130dd3-6e9e271504.zip/node_modules/@goldstack/utils-aws-lambda/",\
+      ["npm:0.3.83", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-aws-lambda-npm-0.3.83-88a7806728-c35a4264d6.zip/node_modules/@goldstack/utils-aws-lambda/",\
         "packageDependencies": [\
           ["@aws-sdk/types", "npm:3.973.5"],\
           ["@goldstack/infra-aws", "npm:0.4.68"],\
           ["@goldstack/utils-aws-cli", "npm:0.4.70"],\
-          ["@goldstack/utils-aws-lambda", "npm:0.3.82"],\
+          ["@goldstack/utils-aws-lambda", "npm:0.3.83"],\
           ["@goldstack/utils-log", "npm:0.3.35"],\
           ["@goldstack/utils-sh", "npm:0.5.40"],\
-          ["@yarnpkg/esbuild-plugin-pnp", "virtual:417b130dd30c91753067f6fd8052d42f40f679cc75a3f23f3a73664b0814e252c4710231428ae002ccf7ac58d4ef9aaf886c643caf53371f9b665a959abc71f4#npm:3.0.0-rc.15"],\
+          ["@yarnpkg/esbuild-plugin-pnp", "virtual:88a7806728c1fc4403acc616cd67d1501b384f7bdd22373a56fd0d32d487798322bc88c434d1290f54a30d47cd95a3bf006d8fc1500df23a7223377ebb8fc1ea#npm:3.0.0-rc.15"],\
           ["archiver", "npm:5.3.1"],\
           ["esbuild", "npm:0.25.6"],\
-          ["esbuild-ssr-css-modules-plugin", "virtual:417b130dd30c91753067f6fd8052d42f40f679cc75a3f23f3a73664b0814e252c4710231428ae002ccf7ac58d4ef9aaf886c643caf53371f9b665a959abc71f4#npm:0.1.32"]\
+          ["esbuild-ssr-css-modules-plugin", "virtual:88a7806728c1fc4403acc616cd67d1501b384f7bdd22373a56fd0d32d487798322bc88c434d1290f54a30d47cd95a3bf006d8fc1500df23a7223377ebb8fc1ea#npm:0.1.32"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2545,6 +2545,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@goldstack-utils-cli-npm-0.3.33-587c115f46-eeaf9cd889.zip/node_modules/@goldstack/utils-cli/",\
         "packageDependencies": [\
           ["@goldstack/utils-cli", "npm:0.3.33"],\
+          ["pino", "npm:9.4.0"],\
+          ["pino-pretty", "npm:11.2.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:0.3.34", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-cli-npm-0.3.34-6d647af716-d5969b2576.zip/node_modules/@goldstack/utils-cli/",\
+        "packageDependencies": [\
+          ["@goldstack/utils-cli", "npm:0.3.34"],\
           ["pino", "npm:9.4.0"],\
           ["pino-pretty", "npm:11.2.2"]\
         ],\
@@ -2590,6 +2599,14 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@goldstack/utils-cli", "npm:0.3.33"],\
           ["@goldstack/utils-log", "npm:0.3.35"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:0.3.36", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-log-npm-0.3.36-d61f3ba976-ef419af740.zip/node_modules/@goldstack/utils-log/",\
+        "packageDependencies": [\
+          ["@goldstack/utils-cli", "npm:0.3.34"],\
+          ["@goldstack/utils-log", "npm:0.3.36"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2638,6 +2655,20 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@goldstack/utils-log", "npm:0.3.35"],\
           ["@goldstack/utils-sh", "npm:0.5.40"],\
+          ["archiver", "npm:5.3.1"],\
+          ["fs-extra", "npm:11.2.0"],\
+          ["glob", "npm:11.1.0"],\
+          ["rimraf", "npm:6.1.2"],\
+          ["which", "npm:2.0.2"],\
+          ["yauzl", "npm:2.10.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:0.5.41", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-sh-npm-0.5.41-0e1a893b0f-4920ab054c.zip/node_modules/@goldstack/utils-sh/",\
+        "packageDependencies": [\
+          ["@goldstack/utils-log", "npm:0.3.36"],\
+          ["@goldstack/utils-sh", "npm:0.5.41"],\
           ["archiver", "npm:5.3.1"],\
           ["fs-extra", "npm:11.2.0"],\
           ["glob", "npm:11.1.0"],\
@@ -2698,11 +2729,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-typescript-references", [\
-      ["npm:0.3.31", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-typescript-references-npm-0.3.31-78666f0ff2-9880aad82a.zip/node_modules/@goldstack/utils-typescript-references/",\
+      ["npm:0.3.32", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-typescript-references-npm-0.3.32-7fcf9c5148-b2a42fee3c.zip/node_modules/@goldstack/utils-typescript-references/",\
         "packageDependencies": [\
-          ["@goldstack/utils-log", "npm:0.3.35"],\
-          ["@goldstack/utils-typescript-references", "npm:0.3.31"],\
+          ["@goldstack/utils-log", "npm:0.3.36"],\
+          ["@goldstack/utils-typescript-references", "npm:0.3.32"],\
           ["source-map-support", "npm:0.5.21"],\
           ["yargs", "npm:17.7.2"]\
         ],\
@@ -4008,30 +4039,32 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@swc/core", [\
-      ["npm:1.15.8", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-virtual-548b48573c/node_modules/@swc/core/",\
+      ["npm:1.15.46", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-virtual-560190df1c/node_modules/@swc/core/",\
         "packageDependencies": [\
-          ["@swc/core", "npm:1.15.8"]\
+          ["@swc/core", "npm:1.15.46"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:8bef510c0619095ee30ac836f9643425a212626f83185fedbcc909c8711c9a5b0dbdb3add9166ccbc9a48d7465c2ef59a30b633e7982af10fb3297ad27fa00f8#npm:1.15.8", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-virtual-548b48573c/node_modules/@swc/core/",\
+      ["virtual:8bef510c0619095ee30ac836f9643425a212626f83185fedbcc909c8711c9a5b0dbdb3add9166ccbc9a48d7465c2ef59a30b633e7982af10fb3297ad27fa00f8#npm:1.15.46", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-virtual-560190df1c/node_modules/@swc/core/",\
         "packageDependencies": [\
-          ["@swc/core", "virtual:8bef510c0619095ee30ac836f9643425a212626f83185fedbcc909c8711c9a5b0dbdb3add9166ccbc9a48d7465c2ef59a30b633e7982af10fb3297ad27fa00f8#npm:1.15.8"],\
-          ["@swc/core-darwin-arm64", "npm:1.15.8"],\
-          ["@swc/core-darwin-x64", "npm:1.15.8"],\
-          ["@swc/core-linux-arm-gnueabihf", "npm:1.15.8"],\
-          ["@swc/core-linux-arm64-gnu", "npm:1.15.8"],\
-          ["@swc/core-linux-arm64-musl", "npm:1.15.8"],\
-          ["@swc/core-linux-x64-gnu", "npm:1.15.8"],\
-          ["@swc/core-linux-x64-musl", "npm:1.15.8"],\
-          ["@swc/core-win32-arm64-msvc", "npm:1.15.8"],\
-          ["@swc/core-win32-ia32-msvc", "npm:1.15.8"],\
-          ["@swc/core-win32-x64-msvc", "npm:1.15.8"],\
+          ["@swc/core", "virtual:8bef510c0619095ee30ac836f9643425a212626f83185fedbcc909c8711c9a5b0dbdb3add9166ccbc9a48d7465c2ef59a30b633e7982af10fb3297ad27fa00f8#npm:1.15.46"],\
+          ["@swc/core-darwin-arm64", "npm:1.15.46"],\
+          ["@swc/core-darwin-x64", "npm:1.15.46"],\
+          ["@swc/core-linux-arm-gnueabihf", "npm:1.15.46"],\
+          ["@swc/core-linux-arm64-gnu", "npm:1.15.46"],\
+          ["@swc/core-linux-arm64-musl", "npm:1.15.46"],\
+          ["@swc/core-linux-ppc64-gnu", "npm:1.15.46"],\
+          ["@swc/core-linux-s390x-gnu", "npm:1.15.46"],\
+          ["@swc/core-linux-x64-gnu", "npm:1.15.46"],\
+          ["@swc/core-linux-x64-musl", "npm:1.15.46"],\
+          ["@swc/core-win32-arm64-msvc", "npm:1.15.46"],\
+          ["@swc/core-win32-ia32-msvc", "npm:1.15.46"],\
+          ["@swc/core-win32-x64-msvc", "npm:1.15.46"],\
           ["@swc/counter", "npm:0.1.3"],\
           ["@swc/helpers", null],\
-          ["@swc/types", "npm:0.1.25"],\
+          ["@swc/types", "npm:0.1.27"],\
           ["@types/swc__helpers", null]\
         ],\
         "packagePeers": [\
@@ -4042,91 +4075,109 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@swc/core-darwin-arm64", [\
-      ["npm:1.15.8", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-darwin-arm64-npm-1.15.8-126f9f1524/node_modules/@swc/core-darwin-arm64/",\
+      ["npm:1.15.46", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-darwin-arm64-npm-1.15.46-769614274a/node_modules/@swc/core-darwin-arm64/",\
         "packageDependencies": [\
-          ["@swc/core-darwin-arm64", "npm:1.15.8"]\
+          ["@swc/core-darwin-arm64", "npm:1.15.46"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@swc/core-darwin-x64", [\
-      ["npm:1.15.8", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-darwin-x64-npm-1.15.8-4859e6c4ae/node_modules/@swc/core-darwin-x64/",\
+      ["npm:1.15.46", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-darwin-x64-npm-1.15.46-d954dab324/node_modules/@swc/core-darwin-x64/",\
         "packageDependencies": [\
-          ["@swc/core-darwin-x64", "npm:1.15.8"]\
+          ["@swc/core-darwin-x64", "npm:1.15.46"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@swc/core-linux-arm-gnueabihf", [\
-      ["npm:1.15.8", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-linux-arm-gnueabihf-npm-1.15.8-6e11287eb4/node_modules/@swc/core-linux-arm-gnueabihf/",\
+      ["npm:1.15.46", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-linux-arm-gnueabihf-npm-1.15.46-bf5097b118/node_modules/@swc/core-linux-arm-gnueabihf/",\
         "packageDependencies": [\
-          ["@swc/core-linux-arm-gnueabihf", "npm:1.15.8"]\
+          ["@swc/core-linux-arm-gnueabihf", "npm:1.15.46"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@swc/core-linux-arm64-gnu", [\
-      ["npm:1.15.8", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-linux-arm64-gnu-npm-1.15.8-74b03ef989/node_modules/@swc/core-linux-arm64-gnu/",\
+      ["npm:1.15.46", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-linux-arm64-gnu-npm-1.15.46-7ad8623973/node_modules/@swc/core-linux-arm64-gnu/",\
         "packageDependencies": [\
-          ["@swc/core-linux-arm64-gnu", "npm:1.15.8"]\
+          ["@swc/core-linux-arm64-gnu", "npm:1.15.46"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@swc/core-linux-arm64-musl", [\
-      ["npm:1.15.8", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-linux-arm64-musl-npm-1.15.8-8e6af21330/node_modules/@swc/core-linux-arm64-musl/",\
+      ["npm:1.15.46", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-linux-arm64-musl-npm-1.15.46-c087331aa0/node_modules/@swc/core-linux-arm64-musl/",\
         "packageDependencies": [\
-          ["@swc/core-linux-arm64-musl", "npm:1.15.8"]\
+          ["@swc/core-linux-arm64-musl", "npm:1.15.46"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@swc/core-linux-ppc64-gnu", [\
+      ["npm:1.15.46", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-linux-ppc64-gnu-npm-1.15.46-2e3298b81d/node_modules/@swc/core-linux-ppc64-gnu/",\
+        "packageDependencies": [\
+          ["@swc/core-linux-ppc64-gnu", "npm:1.15.46"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@swc/core-linux-s390x-gnu", [\
+      ["npm:1.15.46", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-linux-s390x-gnu-npm-1.15.46-91fe04eb5a/node_modules/@swc/core-linux-s390x-gnu/",\
+        "packageDependencies": [\
+          ["@swc/core-linux-s390x-gnu", "npm:1.15.46"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@swc/core-linux-x64-gnu", [\
-      ["npm:1.15.8", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-linux-x64-gnu-npm-1.15.8-e48588cb74/node_modules/@swc/core-linux-x64-gnu/",\
+      ["npm:1.15.46", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-linux-x64-gnu-npm-1.15.46-47b3817d94/node_modules/@swc/core-linux-x64-gnu/",\
         "packageDependencies": [\
-          ["@swc/core-linux-x64-gnu", "npm:1.15.8"]\
+          ["@swc/core-linux-x64-gnu", "npm:1.15.46"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@swc/core-linux-x64-musl", [\
-      ["npm:1.15.8", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-linux-x64-musl-npm-1.15.8-b4b2591c0f/node_modules/@swc/core-linux-x64-musl/",\
+      ["npm:1.15.46", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-linux-x64-musl-npm-1.15.46-ebb9d3d967/node_modules/@swc/core-linux-x64-musl/",\
         "packageDependencies": [\
-          ["@swc/core-linux-x64-musl", "npm:1.15.8"]\
+          ["@swc/core-linux-x64-musl", "npm:1.15.46"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@swc/core-win32-arm64-msvc", [\
-      ["npm:1.15.8", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-win32-arm64-msvc-npm-1.15.8-516a402e5f/node_modules/@swc/core-win32-arm64-msvc/",\
+      ["npm:1.15.46", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-win32-arm64-msvc-npm-1.15.46-f3e1508fa6/node_modules/@swc/core-win32-arm64-msvc/",\
         "packageDependencies": [\
-          ["@swc/core-win32-arm64-msvc", "npm:1.15.8"]\
+          ["@swc/core-win32-arm64-msvc", "npm:1.15.46"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@swc/core-win32-ia32-msvc", [\
-      ["npm:1.15.8", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-win32-ia32-msvc-npm-1.15.8-1c8a12ecfe/node_modules/@swc/core-win32-ia32-msvc/",\
+      ["npm:1.15.46", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-win32-ia32-msvc-npm-1.15.46-394dd2dc35/node_modules/@swc/core-win32-ia32-msvc/",\
         "packageDependencies": [\
-          ["@swc/core-win32-ia32-msvc", "npm:1.15.8"]\
+          ["@swc/core-win32-ia32-msvc", "npm:1.15.46"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@swc/core-win32-x64-msvc", [\
-      ["npm:1.15.8", {\
-        "packageLocation": "./.yarn/unplugged/@swc-core-win32-x64-msvc-npm-1.15.8-0354fffc28/node_modules/@swc/core-win32-x64-msvc/",\
+      ["npm:1.15.46", {\
+        "packageLocation": "./.yarn/unplugged/@swc-core-win32-x64-msvc-npm-1.15.46-01c4ec1e35/node_modules/@swc/core-win32-x64-msvc/",\
         "packageDependencies": [\
-          ["@swc/core-win32-x64-msvc", "npm:1.15.8"]\
+          ["@swc/core-win32-x64-msvc", "npm:1.15.46"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4152,7 +4203,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/@swc-jest-virtual-39fdcf2357/0/cache/@swc-jest-npm-0.2.39-698584c3a7-a2b7ed6fbb.zip/node_modules/@swc/jest/",\
         "packageDependencies": [\
           ["@jest/create-cache-key-function", "npm:30.0.2"],\
-          ["@swc/core", "virtual:8bef510c0619095ee30ac836f9643425a212626f83185fedbcc909c8711c9a5b0dbdb3add9166ccbc9a48d7465c2ef59a30b633e7982af10fb3297ad27fa00f8#npm:1.15.8"],\
+          ["@swc/core", "virtual:8bef510c0619095ee30ac836f9643425a212626f83185fedbcc909c8711c9a5b0dbdb3add9166ccbc9a48d7465c2ef59a30b633e7982af10fb3297ad27fa00f8#npm:1.15.46"],\
           ["@swc/counter", "npm:0.1.3"],\
           ["@swc/jest", "virtual:8bef510c0619095ee30ac836f9643425a212626f83185fedbcc909c8711c9a5b0dbdb3add9166ccbc9a48d7465c2ef59a30b633e7982af10fb3297ad27fa00f8#npm:0.2.39"],\
           ["@types/swc__core", null],\
@@ -4166,11 +4217,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@swc/types", [\
-      ["npm:0.1.25", {\
-        "packageLocation": "./.yarn/cache/@swc-types-npm-0.1.25-8a74ae00bc-f674145022.zip/node_modules/@swc/types/",\
+      ["npm:0.1.27", {\
+        "packageLocation": "./.yarn/cache/@swc-types-npm-0.1.27-974714341f-96b8161fbb.zip/node_modules/@swc/types/",\
         "packageDependencies": [\
           ["@swc/counter", "npm:0.1.3"],\
-          ["@swc/types", "npm:0.1.25"]\
+          ["@swc/types", "npm:0.1.27"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4575,11 +4626,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:417b130dd30c91753067f6fd8052d42f40f679cc75a3f23f3a73664b0814e252c4710231428ae002ccf7ac58d4ef9aaf886c643caf53371f9b665a959abc71f4#npm:3.0.0-rc.15", {\
-        "packageLocation": "./.yarn/__virtual__/@yarnpkg-esbuild-plugin-pnp-virtual-aeaa2e249b/0/cache/@yarnpkg-esbuild-plugin-pnp-npm-3.0.0-rc.15-b916c218b3-454f521088.zip/node_modules/@yarnpkg/esbuild-plugin-pnp/",\
+      ["virtual:88a7806728c1fc4403acc616cd67d1501b384f7bdd22373a56fd0d32d487798322bc88c434d1290f54a30d47cd95a3bf006d8fc1500df23a7223377ebb8fc1ea#npm:3.0.0-rc.15", {\
+        "packageLocation": "./.yarn/__virtual__/@yarnpkg-esbuild-plugin-pnp-virtual-90c9f76c90/0/cache/@yarnpkg-esbuild-plugin-pnp-npm-3.0.0-rc.15-b916c218b3-454f521088.zip/node_modules/@yarnpkg/esbuild-plugin-pnp/",\
         "packageDependencies": [\
           ["@types/esbuild", null],\
-          ["@yarnpkg/esbuild-plugin-pnp", "virtual:417b130dd30c91753067f6fd8052d42f40f679cc75a3f23f3a73664b0814e252c4710231428ae002ccf7ac58d4ef9aaf886c643caf53371f9b665a959abc71f4#npm:3.0.0-rc.15"],\
+          ["@yarnpkg/esbuild-plugin-pnp", "virtual:88a7806728c1fc4403acc616cd67d1501b384f7bdd22373a56fd0d32d487798322bc88c434d1290f54a30d47cd95a3bf006d8fc1500df23a7223377ebb8fc1ea#npm:3.0.0-rc.15"],\
           ["esbuild", "npm:0.25.6"],\
           ["tslib", "npm:2.4.0"]\
         ],\
@@ -5800,12 +5851,12 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:417b130dd30c91753067f6fd8052d42f40f679cc75a3f23f3a73664b0814e252c4710231428ae002ccf7ac58d4ef9aaf886c643caf53371f9b665a959abc71f4#npm:0.1.32", {\
-        "packageLocation": "./.yarn/__virtual__/esbuild-ssr-css-modules-plugin-virtual-b1f3a1e4df/0/cache/esbuild-ssr-css-modules-plugin-npm-0.1.32-0819b0d721-f97434059f.zip/node_modules/esbuild-ssr-css-modules-plugin/",\
+      ["virtual:88a7806728c1fc4403acc616cd67d1501b384f7bdd22373a56fd0d32d487798322bc88c434d1290f54a30d47cd95a3bf006d8fc1500df23a7223377ebb8fc1ea#npm:0.1.32", {\
+        "packageLocation": "./.yarn/__virtual__/esbuild-ssr-css-modules-plugin-virtual-41293a9d99/0/cache/esbuild-ssr-css-modules-plugin-npm-0.1.32-0819b0d721-f97434059f.zip/node_modules/esbuild-ssr-css-modules-plugin/",\
         "packageDependencies": [\
           ["@types/esbuild", null],\
           ["esbuild", "npm:0.25.6"],\
-          ["esbuild-ssr-css-modules-plugin", "virtual:417b130dd30c91753067f6fd8052d42f40f679cc75a3f23f3a73664b0814e252c4710231428ae002ccf7ac58d4ef9aaf886c643caf53371f9b665a959abc71f4#npm:0.1.32"],\
+          ["esbuild-ssr-css-modules-plugin", "virtual:88a7806728c1fc4403acc616cd67d1501b384f7bdd22373a56fd0d32d487798322bc88c434d1290f54a30d47cd95a3bf006d8fc1500df23a7223377ebb8fc1ea#npm:0.1.32"],\
           ["node-css-require", "npm:0.4.30"],\
           ["postcss-modules-sync", "npm:1.0.0"],\
           ["sha256", "npm:0.2.0"]\
@@ -7391,10 +7442,10 @@ const RAW_RUNTIME_STATE =
       ["workspace:packages/lambda-python-job-1", {\
         "packageLocation": "./packages/lambda-python-job-1/",\
         "packageDependencies": [\
-          ["@goldstack/template-lambda-trigger-cli", "npm:0.1.81"],\
-          ["@goldstack/utils-log", "npm:0.3.35"],\
-          ["@goldstack/utils-sh", "npm:0.5.40"],\
-          ["@swc/core", "virtual:8bef510c0619095ee30ac836f9643425a212626f83185fedbcc909c8711c9a5b0dbdb3add9166ccbc9a48d7465c2ef59a30b633e7982af10fb3297ad27fa00f8#npm:1.15.8"],\
+          ["@goldstack/template-lambda-trigger-cli", "npm:0.1.82"],\
+          ["@goldstack/utils-log", "npm:0.3.36"],\
+          ["@goldstack/utils-sh", "npm:0.5.41"],\
+          ["@swc/core", "virtual:8bef510c0619095ee30ac836f9643425a212626f83185fedbcc909c8711c9a5b0dbdb3add9166ccbc9a48d7465c2ef59a30b633e7982af10fb3297ad27fa00f8#npm:1.15.46"],\
           ["@swc/jest", "virtual:8bef510c0619095ee30ac836f9643425a212626f83185fedbcc909c8711c9a5b0dbdb3add9166ccbc9a48d7465c2ef59a30b633e7982af10fb3297ad27fa00f8#npm:0.2.39"],\
           ["@types/jest", "npm:30.0.0"],\
           ["@types/node", "npm:25.0.3"],\
@@ -8435,8 +8486,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@biomejs/biome", "npm:2.3.5"],\
-          ["@goldstack/nodemonx", "npm:0.4.42"],\
-          ["@goldstack/utils-typescript-references", "npm:0.3.31"],\
+          ["@goldstack/nodemonx", "npm:0.4.43"],\
+          ["@goldstack/utils-typescript-references", "npm:0.3.32"],\
           ["@types/jest", "npm:30.0.0"],\
           ["@types/node", "npm:25.0.3"],\
           ["nodemon", "npm:3.1.14"],\
@@ -9183,7 +9234,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/__virtual__/ts-node-virtual-688a719c29/0/cache/ts-node-npm-10.9.2-3f3890b9ac-a91a15b3c9.zip/node_modules/ts-node/",\
         "packageDependencies": [\
           ["@cspotcode/source-map-support", "npm:0.8.1"],\
-          ["@swc/core", "virtual:8bef510c0619095ee30ac836f9643425a212626f83185fedbcc909c8711c9a5b0dbdb3add9166ccbc9a48d7465c2ef59a30b633e7982af10fb3297ad27fa00f8#npm:1.15.8"],\
+          ["@swc/core", "virtual:8bef510c0619095ee30ac836f9643425a212626f83185fedbcc909c8711c9a5b0dbdb3add9166ccbc9a48d7465c2ef59a30b633e7982af10fb3297ad27fa00f8#npm:1.15.46"],\
           ["@swc/wasm", null],\
           ["@tsconfig/node10", "npm:1.0.8"],\
           ["@tsconfig/node12", "npm:1.0.9"],\
