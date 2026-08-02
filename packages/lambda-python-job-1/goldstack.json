@@ -10,9 +10,9 @@
       "awsUser": "goldstack-dev",
       "awsRegion": "us-west-2",
       "configuration": {
-        "lambdaName": "goldstack-ci-test-lambda-python-job-1785626941338"
+        "lambdaName": "goldstack-ci-test-lambda-python-job-1785674595758"
       },
-      "tfStateKey": "lambda-python-job-1-prod-3a72d1be0232b5b86a69.tfstate"
+      "tfStateKey": "lambda-python-job-1-prod-4f85b24957ee5bdc6103.tfstate"
     }
   ]
 }
