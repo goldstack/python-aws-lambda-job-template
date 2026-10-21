@@ -1922,14 +1922,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-lambda-trigger-cli", [\
-      ["npm:0.1.92", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-lambda-trigger-cli-npm-0.1.92-3e4d58f697-eaaf3a70f5.zip/node_modules/@goldstack/template-lambda-trigger-cli/",\
+      ["npm:0.1.93", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-lambda-trigger-cli-npm-0.1.93-5d4559d312-83994533ad.zip/node_modules/@goldstack/template-lambda-trigger-cli/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.50"],\
           ["@goldstack/infra-aws", "npm:0.4.78"],\
           ["@goldstack/template-lambda-cli", "npm:0.1.88"],\
-          ["@goldstack/template-lambda-trigger-cli", "npm:0.1.92"],\
-          ["@goldstack/template-sqs", "npm:0.1.80"],\
+          ["@goldstack/template-lambda-trigger-cli", "npm:0.1.93"],\
+          ["@goldstack/template-sqs", "npm:0.1.81"],\
           ["@goldstack/utils-aws-lambda", "npm:0.3.92"],\
           ["@goldstack/utils-cli", "npm:0.3.40"],\
           ["@goldstack/utils-config", "npm:0.4.50"],\
@@ -1946,15 +1946,15 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-sqs", [\
-      ["npm:0.1.80", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-sqs-npm-0.1.80-de5616d850-a24b721989.zip/node_modules/@goldstack/template-sqs/",\
+      ["npm:0.1.81", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-sqs-npm-0.1.81-8e33376137-30f353a530.zip/node_modules/@goldstack/template-sqs/",\
         "packageDependencies": [\
           ["@aws-sdk/client-sqs", "npm:3.1152.0"],\
           ["@aws-sdk/credential-providers", "npm:3.1152.0"],\
           ["@aws-sdk/types", "npm:3.974.6"],\
           ["@goldstack/infra", "npm:0.4.50"],\
           ["@goldstack/infra-aws", "npm:0.4.78"],\
-          ["@goldstack/template-sqs", "npm:0.1.80"],\
+          ["@goldstack/template-sqs", "npm:0.1.81"],\
           ["@goldstack/utils-cli", "npm:0.3.40"],\
           ["@goldstack/utils-esbuild", "npm:0.5.33"],\
           ["@goldstack/utils-log", "npm:0.3.43"],\
@@ -6864,7 +6864,7 @@ const RAW_RUNTIME_STATE =
       ["workspace:packages/lambda-python-job-1", {\
         "packageLocation": "./packages/lambda-python-job-1/",\
         "packageDependencies": [\
-          ["@goldstack/template-lambda-trigger-cli", "npm:0.1.92"],\
+          ["@goldstack/template-lambda-trigger-cli", "npm:0.1.93"],\
           ["@goldstack/utils-log", "npm:0.3.43"],\
           ["@goldstack/utils-sh", "npm:0.5.48"],\
           ["@swc/core", "virtual:8bef510c0619095ee30ac836f9643425a212626f83185fedbcc909c8711c9a5b0dbdb3add9166ccbc9a48d7465c2ef59a30b633e7982af10fb3297ad27fa00f8#npm:1.16.13"],\
